@@ -1,0 +1,21 @@
+# Ignore node_modules (important!)
+node_modules/
+
+# Ignore compiled JavaScript files
+*.js
+*.js.map
+
+# Ignore build/output folders (optional, if you use them)
+dist/
+build/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore environment files (if any in future)
+.env
+.env.local
+
+# Ignore system files
+.DS_Store
+Thumbs.db
