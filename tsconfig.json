@@ -1,8 +1,13 @@
 {
-  "$schema": "./node_modules/typescript/lib/tsconfig.json",
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ES2020",
     "module": "commonjs",
-    "strict": true
-  }
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDir": "./",         // All .ts files are in the root
+    "outDir": "./dist",      // Compiled JS goes to dist/
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["*.ts"],       // Only compile .ts files in the root
+  "exclude": ["dist"]        // Don't recompile output
 }
