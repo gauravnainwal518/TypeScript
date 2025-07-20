@@ -44,7 +44,7 @@ const adminUser: user = {
 console.log(adminUser);
 
 
-//task
+//practice task 
 interface Person{
   name: string;
   age: number;
